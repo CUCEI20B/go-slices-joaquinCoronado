@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 	var n, numero, suma int
-	fmt.Scanf("%d", &n)
+	fmt.Scanln(&n)
 	s := make([]int, n)
 
 	for i := 0; i < n; i++ {
-		fmt.Scanf("%d", &numero)
+		fmt.Scanln(&numero)
 		s = append(s, numero)
 	}
 
